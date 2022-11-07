@@ -185,7 +185,7 @@ article{
 .check-resposta input{
     display: none;
 }
-.campo-resposta{
+.texto-resposta{
    background-color: #F8FAFF;
    border: 1px solid #005b9c70;
    border-radius: 5px;
