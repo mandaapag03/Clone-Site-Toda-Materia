@@ -68,13 +68,13 @@ h1, h2, h3{
     width: 18%;
     margin-left: 12%;
     margin-top: 1%;
-    margin-bottom: -1%;
+    margin-bottom: -2%;
     display: inline;
 }
 
 .mini-navegacao p{
     margin-left: 13%;
-    margin-top: 10px;
+    margin-top: 3px;
     margin-bottom: 10px;
 }
 
@@ -87,14 +87,13 @@ h1, h2, h3{
     text-decoration: none;
 }
 #barra-pesquisa{
-    border: solid 1px;
+    border: #3d236dda solid 3px;
     border-radius: 30px;
-    width: 350px;
+    width: 22%;
     height: 7px;
     margin: -0.1%;
-    margin-top: -20px;
+    margin-top: -19px;
     margin-left: 60%;
-    margin-bottom: 5px;
     padding: 20px;
     background-color: #FFFFFF;
 }
@@ -108,11 +107,13 @@ h1, h2, h3{
     float: left;
     background-color: transparent;
     font-size: 16px;
-    border-style:none;
-    height: 25px;
-    width: 320px;
+    border-style: none;
+    padding-left: 10px;
+    height: 45px;
+    width: 92%;
     position: relative;
-    bottom: 8px;
+    right: 16px;
+    bottom: 18px;
 }
 #pesquisa:focus{
     box-shadow: 0 0 0 0;
