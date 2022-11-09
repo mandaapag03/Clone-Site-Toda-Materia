@@ -172,15 +172,28 @@ article{
 }
 
 /*campo-resposta*/
+.campo-resposta{
+    padding: 0px;
+    margin: 15px 0px 15px 0px;
+}
 .btn-resposta{
-    margin: 10px;
-    padding: 2% 41% 2% 41%;
+    margin: 0px;
+    width: 100%;
+    height: 40px;
     border: none;
     border-radius: 5px;
     background-color: #005B9C;
     color: #FFF;
     font-size: 16px;
     font-weight: bolder;
+}
+.text-resposta{
+    margin: 0px;
+    padding: 10px;
+    background-color: #F8FAFF;
+    border: 1px solid #A3C2DA;
+    border-radius: 5px;
+    display: none;
 }
 
 .interesses-plus{
