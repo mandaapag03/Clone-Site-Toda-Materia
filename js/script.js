@@ -1,3 +1,8 @@
-let btn = document.querySelector('#ck-1')
-console.log(btn)
+function mostrarEsconderResposta() { }
 
+let botaoResposta = document.querySelector('.btn-resposta')
+console.log(botaoResposta)
+
+botaoResposta.addEventListener("click", function () {
+
+})
