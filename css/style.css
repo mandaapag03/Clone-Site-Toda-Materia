@@ -171,6 +171,10 @@ article{
     margin-bottom: 30px;
 }
 
+.imagem-questao{
+    margin: 3% 0 3% 0;
+}
+
 /*campo-resposta*/
 .campo-resposta{
     padding: 0px;
@@ -275,7 +279,7 @@ article{
 
 .side-bar{
     background-color: #FFFFFF;
-    margin: 2% 60% 10% 13%;
+    margin: 2% 60% 3% 13%;
     border: 1px solid #75757551;
     border-radius: 3px;
 }
@@ -326,6 +330,41 @@ article{
 footer{
     background-color: #3D236D;
 }
+.detalhes-footer{
+    margin: 0 15% 0 15%;
+}
+
 .nav-materias ul{
-    margin: 5% 20%;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10% 0 0;
+}
+.nav-materias ul li{
+    margin: 20px;
+}
+.nav-materias ul li a{
+    color: #FFFFFF;
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+.nav-materias ul li a:hover{
+    text-decoration: none;
+}
+.bottom-footer{
+    margin-top: 2%;
+}
+#direitos p{
+    color: #FFFFFF;
+    font-size: 0.9em;
+    display: inline;
+}
+#info{
+    margin-left: 15%;
+}
+#info a{
+    color: #FFFFFF;
+    margin-left: 2%;
+}
+#info a:hover{
+    text-decoration: none;
 }

@@ -84,7 +84,7 @@
                         </div>
                         <!--Resposta-->
                             <div class="text-resposta">
-                                <p>Respostas:</p>
+                                <p><strong>Respostas:</strong></p>
                                 <p>
                                     a) 9. Sequência de números ímpares ou + 2 (1+2=3; 3+2=5; 5+2=7; 7+2=9)<br>
                                     b) 128. Sequência baseada na multiplicação por 2 (2x2=4; 4x2=8; 8x2=16... 64x2=128)<br>
@@ -127,6 +127,62 @@
                             1 + 2 + 3 + 4 + 5 + 6 + 7 = 28<br>
                             Fazendo a substração, encontramos:<br>
                             52 - 28 = 24
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Questão 3-->
+                <div>
+                    <h2>Questão 3</h2>
+                    <p>
+                        (UERJ) Em um sistema de codificação, AB representa os algarismos do dia do nascimento de uma pessoa e CD os algarismos de seu mês de nascimento. Nesse sistema, a data trinta de julho, por exemplo, corresponderia a:
+                        <div class="imagem-questao">
+                            <img src="img/questao3_img1.png">
+                        </div>
+                        Admita uma pessoa cuja data de nascimento obedeça à seguinte condição:
+                        <div class="imagem-questao">
+                            <img src="img/questao3_img2.png">
+                        </div>
+                        O mês de nascimento dessa pessoa é:
+                    </p>
+                    <p>
+                        a) agosto<br>
+                        b) setembro<br>
+                        c) outubro<br>
+                        d) novembro<br>
+                    </p>
+                    <!--Campo de resposta-->
+                    <div class="campo-resposta">
+                        <div>
+                            <button class="btn-resposta">Ver Resposta</button>
+                        </div>
+                        <!--Resposta-->
+                        <div class="text-resposta">
+                            <p><strong>Respostas:</strong></p>
+                            <p>
+                                <strong>Alternativa correta</strong>: b) setembro<br>
+
+                                As somas dos algarismos relativos ao dias do mês, variam de 1 a 11.<br>
+                                
+                                01 = 0 + 1 = 1<br>
+                                02 = 0 + 2 = 2<br>
+                                ...<br>
+                                29 = 2 + 9 = 11 (é a maior soma)<br>
+                                30 = 3 + 0 = 3<br>
+                                31 = 3 + 1 = 4<br><br>
+                                
+                                Já a soma dos algarismos relativos ao mês, varia de 1 a 9.<br><br>
+                                
+                                janeiro: 01 = 0 + 1 = 1<br>
+                                fevereiro: 02 = 0 + 2 = 2<br>
+                                ...<br>
+                                setembro: 09 = 0 + 9 = 9 (é a maior soma)<br>
+                                outubro: 10 = 1 + 0 = 1<br>
+                                novembro: 11 = 1 + 1 = 2<br>
+                                dezembro: 12 = 1 + 2 = 3<br><br>
+                                
+                                Sendo assim, observamos que 11 + 9 = 20, que são os valores máximos da soma. Portanto, essa combinação é a única possível para a resolução da questão. Desta forma, a soma do mês igual a 9 é o mês de setembro.
                             </p>
                         </div>
                     </div>
@@ -203,35 +259,44 @@
         </div>
     </div>
     <footer>
-        <nav class="nav-materias">
-            <ul>
-                <li><a href="">BIOLOGIA</a></li>
-                <li><a href="">FILOSOFIA</a></li>
-                <li><a href="">FÍSICA</a></li>
-                <li><a href="">GEOGRAFIA</a></li>
-                <li><a href="">HISTÓRIA</a></li>
-                <li><a href="">LÍNGUA PORTUGUESA</a></li>
-                <li><a href="">LITERATURA</a></li>
-                <li><a href="">MATEMÁTICA</a></li>
-                <li><a href="">QUÍMICA</a></li>
-                <li><a href="">INGLÊS</a></li>
-                <li><a href="">ENEM</a></li>
-                <li><a href="">Todas as Matérias</a></li> 
-                <li><a href="">Populares</a></li> 
-                <li><a href="">Últimas Matérias</a></li>
-            </ul>
-        </nav>
-        <hr>
-        <div>
-            Toda Matéria: conteúdos escolares.
-            © 2011 - 2022 7graus
-        </div>
-        <div>
-            <a href="">Como Citar</a>
-            <a href="">Contato</a>
-            <a href="">Política de Privacidade</a>
-            <a href="">Sobre</a>
-            <a href="">RSS Feed</a>
+        <div class="detalhes-footer">
+            <nav class="nav-materias">
+                <ul>
+                    <li><a href="">BIOLOGIA</a></li>
+                    <li><a href="">FILOSOFIA</a></li>
+                    <li><a href="">FÍSICA</a></li>
+                    <li><a href="">GEOGRAFIA</a></li>
+                    <li><a href="">HISTÓRIA</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">LÍNGUA PORTUGUESA</a></li>
+                    <li><a href="">LITERATURA</a></li>
+                    <li><a href="">MATEMÁTICA</a></li>
+                    <li><a href="">QUÍMICA</a></li>
+                    <li><a href="">INGLÊS</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">ENEM</a></li>
+                    <li><a href="">Exercícios</a></li>
+                    <li><a href="">Todas as Matérias</a></li> 
+                    <li><a href="">Populares</a></li> 
+                    <li><a href="">Últimas Matérias</a></li>
+                </ul>
+            </nav>
+            <hr>
+            <div class="bottom-footer">
+                <span id="direitos">
+                    <p>Toda Matéria: conteúdos escolares.</p>
+                    <p>© 2011 - 2022 7graus</p>
+                </span>
+                <span id="info">
+                    <a href="">Como Citar</a>
+                    <a href="">Contato</a>
+                    <a href="">Política de Privacidade</a>
+                    <a href="">Sobre</a>
+                    <a href="">RSS Feed</a>
+                </span>
+            </div>
         </div>
     </footer>
 </body>
